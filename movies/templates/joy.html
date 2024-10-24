@@ -1,0 +1,58 @@
+<html>
+    <title>movies</title>
+    <body>
+        <table border="1">
+            <thead>
+                
+                <td>MovieName</td>
+                <td>Year</td>
+                <td>Director</td>
+                <td>Rating</td>
+                <td>Genre</td>   
+            </thead>
+            <tbody>
+                
+               
+                <tr>
+                    {% for movie in movies %}
+                    <td>{{ movies.name1 }}</td>
+                    <td>{{ movies.year1 }}</td>
+                    <td>{{ movies.director1 }}</td>
+                    <td>{{ movies.rating1 }}</td>
+                    <td>{{ movies.genre1 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ movies.name2 }}</td>
+                    <td>{{ movies.year2 }}</td>
+                    <td>{{ movies.director2 }}</td>
+                    <td>{{ movies.rating2 }}</td>
+                    <td>{{ movies.genre2 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ movies.name3 }}</td>
+                    <td>{{ movies.year3 }}</td>
+                    <td>{{ movies.director3 }}</td>
+                    <td>{{ movies.rating3 }}</td>
+                    <td>{{ movies.genre3 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ movies.name4 }}</td>
+                    <td>{{ movies.year4 }}</td>
+                    <td>{{ movies.director4 }}</td>
+                    <td>{{ movies.rating4 }}</td>
+                    <td>{{ movies.genre4 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ movies.name5 }}</td>
+                    <td>{{ movies.year5 }}</td>
+                    <td>{{ movies.director5 }}</td>
+                    <td>{{ movies.rating5 }}</td>
+                    <td>{{ movies.genre5 }}</td>
+                    {% endfor %}
+                </tr>
+               
+                
+            </tbody>
+            
+    </body>
+</html>
